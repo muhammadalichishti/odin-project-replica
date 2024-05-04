@@ -8,6 +8,10 @@ body {
     color: #6B7280;
 }
 
+p {
+    line-height: 33px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -84,4 +88,54 @@ body {
     border: 0.1px solid #cfd3d7;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.path-section {
+    text-align: center;
+}
+
+.title-description {
+    max-width: 60%;
+    margin: 80px auto;
+}
+
+.title-description h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: #374151;
+}
+
+.title-description p {
+    font-size: 23px;
+}
+
+.steps-path-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.steps-path-section div img {
+    max-height: 10rem;
+    max-width: auto;
+}
+
+.steps-path-section div p, div h3 {
+    margin: 20px 0;
+}
+
+.steps-path-section div h3 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #374151;
+}
+
+.steps-path-section div p {
+    font-size: 20px;
+    max-width: 350px;
+    margin: auto;
 }
