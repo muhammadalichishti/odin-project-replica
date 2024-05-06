@@ -197,3 +197,62 @@ p {
     border-radius: 10px;
     margin-top: 80px;
 }
+
+.success-stories-section {
+    margin: 70px auto;
+}
+
+.success-stories-section h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: #374151;
+}
+
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.stories img {
+    max-width: 60px;
+    max-height: 60px;
+    border: 1px solid none;
+    border-radius: 100px;
+}
+
+.stories > div {
+    display: flex;
+    max-width: 680px;
+    gap: 30px;
+    align-items: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.stories div p {
+    font-size: 20px;
+    margin: auto;
+}
+
+.name {
+    color: #374151;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.name:hover {
+    color: #6B7280;
+    text-decoration: none;
+}
+
+.success-stories-section > p {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+
+
