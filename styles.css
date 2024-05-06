@@ -310,3 +310,37 @@ p {
     margin-top: -4px;
     max-width: 30px;
 }
+
+footer {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.footer-social-links {
+    display: flex;
+}
+
+.footer-social-links {
+    width: 150px;
+}
+
+.social-links {
+    flex: .40;
+}
+
+.link-one {
+    flex: .15;
+}
+
+.link-two {
+    flex: .15;
+}
+
+.link-three {
+    flex: .15;
+}
+
+.link-four { 
+    flex: .15;
+}
