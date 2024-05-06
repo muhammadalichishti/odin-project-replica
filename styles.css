@@ -315,19 +315,33 @@ footer {
     display: flex;
     width: 95%;
     margin: auto;
+    padding: 100px 5px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .footer-social-links {
     display: flex;
+    width: 200px; 
+    gap: 25px;
 }
 
-.footer-social-links {
-    width: 150px;
+.social-links p {
+    font-size: 18px;
+    max-width: 450px;   
+    margin: 25px 0 25px 0;
+}
+
+footer li {
+    list-style: none;
+    height: 50px;
+    font-size: 18px;
 }
 
 .social-links {
     flex: .40;
 }
+
 
 .link-one {
     flex: .15;
@@ -344,3 +358,11 @@ footer {
 .link-four { 
     flex: .15;
 }
+
+.link-one p, .link-two p, .link-three p, .link-four p {
+    height: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #374151;
+}
+
