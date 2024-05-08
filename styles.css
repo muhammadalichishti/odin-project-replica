@@ -47,6 +47,13 @@ p {
     text-decoration: none;
     color: #6B7280;
     font-size: 15px;
+    font-weight: 500;
+}
+
+.header-container div a :hover {
+    color: rgb(55 65 81);
+    text-decoration: underline 2px rgb(171, 177, 188);
+    text-underline-offset: 0.35em;
 }
 
 .header-container div img {
